@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Announcement */
+
+.Container{
+    height: 30px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Navbar */
+
+.Navbar{
+    height: 40px;
+    padding: 10px 20px;
+    @media only screen and (max-width:380px){
+        height:50px;
+    }
+}
+.Wrapper{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width:380px){
+        padding: 10px 0px;
+    }
+}
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.Language{
+    font-size: 14px;
+    cursor: pointer;
+    @media only screen and (max-width:380px){
+        display:none;
+    }
+}
+.searchContainer{
+    border: 0.25px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 5px;
+}
+.searchContainer input{
+    border: none;
+    @media only screen and (max-width:380px){
+        width:50px;
+    }
+}
+.center{
+    flex: 1;
+    text-align: center;
+}
+.Logo{
+    font-weight: bold;
+    @media only screen and (max-width:380px){
+        margin-left: 5px;
+        font-size: 24px;
+    }
+}
+.right{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    @media only screen and (max-width:380px){
+        flex:2;
+        justify-content: center;
+    }
+}
+.MenuItem{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 25px;
+    @media only screen and (max-width:380px){
+        font-size: 12px;
+        margin-left:10px;
+    }
+}
+
+/* slider */
+.Slider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: coral; */
+    position: relative;
+    overflow: hidden;
+    @media only screen and (max-width:380px){
+        display:none;
+    }
+}
+.Image{
+    height: 100%;
+    flex: 1;
+}
+Img{
+    height: 80%;
+
+}
+.Info{
+    flex: 1;
+    padding: 50px;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
